@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE11A5C61DC66F9000363AD4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE11A5C51DC66F9000363AD4 /* Media.xcassets */; };
+		FE11A5C81DC66FA000363AD4 /* Medi.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE11A5C71DC66FA000363AD4 /* Medi.xcassets */; };
+		FE3702B11DC5338E00D63752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702B01DC5338E00D63752 /* AppDelegate.swift */; };
+		FE3702B31DC5338E00D63752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702B21DC5338E00D63752 /* ViewController.swift */; };
+		FE3702B61DC5338E00D63752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3702B41DC5338E00D63752 /* Main.storyboard */; };
+		FE3702BB1DC5338E00D63752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3702B91DC5338E00D63752 /* LaunchScreen.storyboard */; };
+		FE3702C61DC5338E00D63752 /* PizzamakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702C51DC5338E00D63752 /* PizzamakerTests.swift */; };
+		FE3702D11DC5338E00D63752 /* PizzamakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702D01DC5338E00D63752 /* PizzamakerUITests.swift */; };
+		FE3702D61DC5338E00D63752 /* Pizzamaker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FE3702D51DC5338E00D63752 /* Pizzamaker WatchKit App.app */; };
+		FE3702DC1DC5338E00D63752 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3702DA1DC5338E00D63752 /* Interface.storyboard */; };
+		FE3702E51DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FE3702E41DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE3702EC1DC5338E00D63752 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702EB1DC5338E00D63752 /* InterfaceController.swift */; };
+		FE3702EE1DC5338E00D63752 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702ED1DC5338E00D63752 /* ExtensionDelegate.swift */; };
+		FE3702F01DC5338E00D63752 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3702EF1DC5338E00D63752 /* NotificationController.swift */; };
+		FEC22C711DC577CA00B51E06 /* pantalla1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C701DC577CA00B51E06 /* pantalla1.swift */; };
+		FEC22C751DC5780D00B51E06 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C741DC5780D00B51E06 /* File.swift */; };
+		FEC22C7B1DC5852100B51E06 /* pantalla2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C7A1DC5852100B51E06 /* pantalla2.swift */; };
+		FEC22C7D1DC589D200B51E06 /* pantalla3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C7C1DC589D200B51E06 /* pantalla3.swift */; };
+		FEC22C7F1DC58D5900B51E06 /* pantalla4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C7E1DC58D5900B51E06 /* pantalla4.swift */; };
+		FEC22C811DC5919D00B51E06 /* pantalla5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC22C801DC5919D00B51E06 /* pantalla5.swift */; };
+		FEC22C831DC597D700B51E06 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC22C821DC597D700B51E06 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3702C21DC5338E00D63752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3702A51DC5338E00D63752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3702AC1DC5338E00D63752;
+			remoteInfo = Pizzamaker;
+		};
+		FE3702CD1DC5338E00D63752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3702A51DC5338E00D63752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3702AC1DC5338E00D63752;
+			remoteInfo = Pizzamaker;
+		};
+		FE3702D71DC5338E00D63752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3702A51DC5338E00D63752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3702D41DC5338E00D63752;
+			remoteInfo = "Pizzamaker WatchKit App";
+		};
+		FE3702E61DC5338E00D63752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3702A51DC5338E00D63752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3702E31DC5338E00D63752;
+			remoteInfo = "Pizzamaker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE3702F91DC5338E00D63752 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FE3702E51DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702FD1DC5338E00D63752 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FE3702D61DC5338E00D63752 /* Pizzamaker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE11A5C51DC66F9000363AD4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FE11A5C71DC66FA000363AD4 /* Medi.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Medi.xcassets; sourceTree = "<group>"; };
+		FE3702AD1DC5338E00D63752 /* Pizzamaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzamaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3702B01DC5338E00D63752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3702B21DC5338E00D63752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE3702B51DC5338E00D63752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3702BA1DC5338E00D63752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3702BC1DC5338E00D63752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3702C11DC5338E00D63752 /* PizzamakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzamakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3702C51DC5338E00D63752 /* PizzamakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzamakerTests.swift; sourceTree = "<group>"; };
+		FE3702C71DC5338E00D63752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3702CC1DC5338E00D63752 /* PizzamakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzamakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3702D01DC5338E00D63752 /* PizzamakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzamakerUITests.swift; sourceTree = "<group>"; };
+		FE3702D21DC5338E00D63752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3702D51DC5338E00D63752 /* Pizzamaker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizzamaker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3702DB1DC5338E00D63752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FE3702DF1DC5338E00D63752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3702E41DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pizzamaker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3702EA1DC5338E00D63752 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FE3702EB1DC5338E00D63752 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FE3702ED1DC5338E00D63752 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FE3702EF1DC5338E00D63752 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FE3702F31DC5338E00D63752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC22C701DC577CA00B51E06 /* pantalla1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla1.swift; sourceTree = "<group>"; };
+		FEC22C741DC5780D00B51E06 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FEC22C7A1DC5852100B51E06 /* pantalla2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla2.swift; sourceTree = "<group>"; };
+		FEC22C7C1DC589D200B51E06 /* pantalla3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla3.swift; sourceTree = "<group>"; };
+		FEC22C7E1DC58D5900B51E06 /* pantalla4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla4.swift; sourceTree = "<group>"; };
+		FEC22C801DC5919D00B51E06 /* pantalla5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla5.swift; sourceTree = "<group>"; };
+		FEC22C821DC597D700B51E06 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "../Pizzamaker WatchKit Extension/Media.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3702AA1DC5338E00D63752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702BE1DC5338E00D63752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702C91DC5338E00D63752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702E11DC5338E00D63752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3702A41DC5338E00D63752 = {
+			isa = PBXGroup;
+			children = (
+				FE3702AF1DC5338E00D63752 /* Pizzamaker */,
+				FE3702C41DC5338E00D63752 /* PizzamakerTests */,
+				FE3702CF1DC5338E00D63752 /* PizzamakerUITests */,
+				FE3702D91DC5338E00D63752 /* Pizzamaker WatchKit App */,
+				FE3702E81DC5338E00D63752 /* Pizzamaker WatchKit Extension */,
+				FE3702AE1DC5338E00D63752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3702AE1DC5338E00D63752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702AD1DC5338E00D63752 /* Pizzamaker.app */,
+				FE3702C11DC5338E00D63752 /* PizzamakerTests.xctest */,
+				FE3702CC1DC5338E00D63752 /* PizzamakerUITests.xctest */,
+				FE3702D51DC5338E00D63752 /* Pizzamaker WatchKit App.app */,
+				FE3702E41DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3702AF1DC5338E00D63752 /* Pizzamaker */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702B01DC5338E00D63752 /* AppDelegate.swift */,
+				FE3702B21DC5338E00D63752 /* ViewController.swift */,
+				FE3702B41DC5338E00D63752 /* Main.storyboard */,
+				FE3702B91DC5338E00D63752 /* LaunchScreen.storyboard */,
+				FE3702BC1DC5338E00D63752 /* Info.plist */,
+				FE11A5C51DC66F9000363AD4 /* Media.xcassets */,
+			);
+			path = Pizzamaker;
+			sourceTree = "<group>";
+		};
+		FE3702C41DC5338E00D63752 /* PizzamakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702C51DC5338E00D63752 /* PizzamakerTests.swift */,
+				FE3702C71DC5338E00D63752 /* Info.plist */,
+			);
+			path = PizzamakerTests;
+			sourceTree = "<group>";
+		};
+		FE3702CF1DC5338E00D63752 /* PizzamakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702D01DC5338E00D63752 /* PizzamakerUITests.swift */,
+				FE3702D21DC5338E00D63752 /* Info.plist */,
+			);
+			path = PizzamakerUITests;
+			sourceTree = "<group>";
+		};
+		FE3702D91DC5338E00D63752 /* Pizzamaker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702DA1DC5338E00D63752 /* Interface.storyboard */,
+				FEC22C821DC597D700B51E06 /* Media.xcassets */,
+				FE3702DF1DC5338E00D63752 /* Info.plist */,
+			);
+			path = "Pizzamaker WatchKit App";
+			sourceTree = "<group>";
+		};
+		FE3702E81DC5338E00D63752 /* Pizzamaker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FEC22C741DC5780D00B51E06 /* File.swift */,
+				FEC22C701DC577CA00B51E06 /* pantalla1.swift */,
+				FEC22C7A1DC5852100B51E06 /* pantalla2.swift */,
+				FEC22C7C1DC589D200B51E06 /* pantalla3.swift */,
+				FEC22C7E1DC58D5900B51E06 /* pantalla4.swift */,
+				FEC22C801DC5919D00B51E06 /* pantalla5.swift */,
+				FE3702EB1DC5338E00D63752 /* InterfaceController.swift */,
+				FE3702ED1DC5338E00D63752 /* ExtensionDelegate.swift */,
+				FE3702EF1DC5338E00D63752 /* NotificationController.swift */,
+				FE3702F31DC5338E00D63752 /* Info.plist */,
+				FE3702E91DC5338E00D63752 /* Supporting Files */,
+				FE11A5C71DC66FA000363AD4 /* Medi.xcassets */,
+			);
+			path = "Pizzamaker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FE3702E91DC5338E00D63752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3702EA1DC5338E00D63752 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3702AC1DC5338E00D63752 /* Pizzamaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3702FE1DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker" */;
+			buildPhases = (
+				FE3702A91DC5338E00D63752 /* Sources */,
+				FE3702AA1DC5338E00D63752 /* Frameworks */,
+				FE3702AB1DC5338E00D63752 /* Resources */,
+				FE3702FD1DC5338E00D63752 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3702D81DC5338E00D63752 /* PBXTargetDependency */,
+			);
+			name = Pizzamaker;
+			productName = Pizzamaker;
+			productReference = FE3702AD1DC5338E00D63752 /* Pizzamaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3702C01DC5338E00D63752 /* PizzamakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3703011DC5338E00D63752 /* Build configuration list for PBXNativeTarget "PizzamakerTests" */;
+			buildPhases = (
+				FE3702BD1DC5338E00D63752 /* Sources */,
+				FE3702BE1DC5338E00D63752 /* Frameworks */,
+				FE3702BF1DC5338E00D63752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3702C31DC5338E00D63752 /* PBXTargetDependency */,
+			);
+			name = PizzamakerTests;
+			productName = PizzamakerTests;
+			productReference = FE3702C11DC5338E00D63752 /* PizzamakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE3702CB1DC5338E00D63752 /* PizzamakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3703041DC5338E00D63752 /* Build configuration list for PBXNativeTarget "PizzamakerUITests" */;
+			buildPhases = (
+				FE3702C81DC5338E00D63752 /* Sources */,
+				FE3702C91DC5338E00D63752 /* Frameworks */,
+				FE3702CA1DC5338E00D63752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3702CE1DC5338E00D63752 /* PBXTargetDependency */,
+			);
+			name = PizzamakerUITests;
+			productName = PizzamakerUITests;
+			productReference = FE3702CC1DC5338E00D63752 /* PizzamakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FE3702D41DC5338E00D63752 /* Pizzamaker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3702FA1DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker WatchKit App" */;
+			buildPhases = (
+				FE3702D31DC5338E00D63752 /* Resources */,
+				FE3702F91DC5338E00D63752 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3702E71DC5338E00D63752 /* PBXTargetDependency */,
+			);
+			name = "Pizzamaker WatchKit App";
+			productName = "Pizzamaker WatchKit App";
+			productReference = FE3702D51DC5338E00D63752 /* Pizzamaker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FE3702E31DC5338E00D63752 /* Pizzamaker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3702F61DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker WatchKit Extension" */;
+			buildPhases = (
+				FE3702E01DC5338E00D63752 /* Sources */,
+				FE3702E11DC5338E00D63752 /* Frameworks */,
+				FE3702E21DC5338E00D63752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizzamaker WatchKit Extension";
+			productName = "Pizzamaker WatchKit Extension";
+			productReference = FE3702E41DC5338E00D63752 /* Pizzamaker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3702A51DC5338E00D63752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ricardo Isai";
+				TargetAttributes = {
+					FE3702AC1DC5338E00D63752 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FE3702C01DC5338E00D63752 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3702AC1DC5338E00D63752;
+					};
+					FE3702CB1DC5338E00D63752 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3702AC1DC5338E00D63752;
+					};
+					FE3702D41DC5338E00D63752 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FE3702E31DC5338E00D63752 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE3702A81DC5338E00D63752 /* Build configuration list for PBXProject "Pizzamaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3702A41DC5338E00D63752;
+			productRefGroup = FE3702AE1DC5338E00D63752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3702AC1DC5338E00D63752 /* Pizzamaker */,
+				FE3702C01DC5338E00D63752 /* PizzamakerTests */,
+				FE3702CB1DC5338E00D63752 /* PizzamakerUITests */,
+				FE3702D41DC5338E00D63752 /* Pizzamaker WatchKit App */,
+				FE3702E31DC5338E00D63752 /* Pizzamaker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3702AB1DC5338E00D63752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3702BB1DC5338E00D63752 /* LaunchScreen.storyboard in Resources */,
+				FE11A5C61DC66F9000363AD4 /* Media.xcassets in Resources */,
+				FE3702B61DC5338E00D63752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702BF1DC5338E00D63752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702CA1DC5338E00D63752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702D31DC5338E00D63752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3702DC1DC5338E00D63752 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702E21DC5338E00D63752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11A5C81DC66FA000363AD4 /* Medi.xcassets in Resources */,
+				FEC22C831DC597D700B51E06 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3702A91DC5338E00D63752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3702B31DC5338E00D63752 /* ViewController.swift in Sources */,
+				FE3702B11DC5338E00D63752 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702BD1DC5338E00D63752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3702C61DC5338E00D63752 /* PizzamakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702C81DC5338E00D63752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3702D11DC5338E00D63752 /* PizzamakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3702E01DC5338E00D63752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC22C751DC5780D00B51E06 /* File.swift in Sources */,
+				FEC22C711DC577CA00B51E06 /* pantalla1.swift in Sources */,
+				FEC22C7D1DC589D200B51E06 /* pantalla3.swift in Sources */,
+				FEC22C7F1DC58D5900B51E06 /* pantalla4.swift in Sources */,
+				FE3702F01DC5338E00D63752 /* NotificationController.swift in Sources */,
+				FEC22C7B1DC5852100B51E06 /* pantalla2.swift in Sources */,
+				FE3702EE1DC5338E00D63752 /* ExtensionDelegate.swift in Sources */,
+				FE3702EC1DC5338E00D63752 /* InterfaceController.swift in Sources */,
+				FEC22C811DC5919D00B51E06 /* pantalla5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3702C31DC5338E00D63752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3702AC1DC5338E00D63752 /* Pizzamaker */;
+			targetProxy = FE3702C21DC5338E00D63752 /* PBXContainerItemProxy */;
+		};
+		FE3702CE1DC5338E00D63752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3702AC1DC5338E00D63752 /* Pizzamaker */;
+			targetProxy = FE3702CD1DC5338E00D63752 /* PBXContainerItemProxy */;
+		};
+		FE3702D81DC5338E00D63752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3702D41DC5338E00D63752 /* Pizzamaker WatchKit App */;
+			targetProxy = FE3702D71DC5338E00D63752 /* PBXContainerItemProxy */;
+		};
+		FE3702E71DC5338E00D63752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3702E31DC5338E00D63752 /* Pizzamaker WatchKit Extension */;
+			targetProxy = FE3702E61DC5338E00D63752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE3702B41DC5338E00D63752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3702B51DC5338E00D63752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3702B91DC5338E00D63752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3702BA1DC5338E00D63752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3702DA1DC5338E00D63752 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3702DB1DC5338E00D63752 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3702F41DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3702F51DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3702F71DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Pizzamaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		FE3702F81DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Pizzamaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		FE3702FB1DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Pizzamaker_WatchKit_Extension;
+				INFOPLIST_FILE = "Pizzamaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		FE3702FC1DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Pizzamaker_WatchKit_Extension;
+				INFOPLIST_FILE = "Pizzamaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		FE3702FF1DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzamaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE3703001DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzamaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.Pizzamaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FE3703021DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PizzamakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.PizzamakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizzamaker.app/Pizzamaker";
+			};
+			name = Debug;
+		};
+		FE3703031DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PizzamakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.PizzamakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizzamaker.app/Pizzamaker";
+			};
+			name = Release;
+		};
+		FE3703051DC5338E00D63752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PizzamakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.PizzamakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pizzamaker;
+			};
+			name = Debug;
+		};
+		FE3703061DC5338E00D63752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PizzamakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAME-COMPANY.PizzamakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pizzamaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3702A81DC5338E00D63752 /* Build configuration list for PBXProject "Pizzamaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3702F41DC5338E00D63752 /* Debug */,
+				FE3702F51DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3702F61DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3702F71DC5338E00D63752 /* Debug */,
+				FE3702F81DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3702FA1DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3702FB1DC5338E00D63752 /* Debug */,
+				FE3702FC1DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3702FE1DC5338E00D63752 /* Build configuration list for PBXNativeTarget "Pizzamaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3702FF1DC5338E00D63752 /* Debug */,
+				FE3703001DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3703011DC5338E00D63752 /* Build configuration list for PBXNativeTarget "PizzamakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3703021DC5338E00D63752 /* Debug */,
+				FE3703031DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3703041DC5338E00D63752 /* Build configuration list for PBXNativeTarget "PizzamakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3703051DC5338E00D63752 /* Debug */,
+				FE3703061DC5338E00D63752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3702A51DC5338E00D63752 /* Project object */;
+}
