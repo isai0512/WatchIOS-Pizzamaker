@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--EMPEZAR-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="EMPEZAR" backgroundImage="mesh-1430107_1280" contentMode="bottom" id="AgC-eL-Hgc" customClass="pantalla" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="HAGAMOS PIZZA" id="Ggn-kT-s8o">
+                            <color key="textColor" red="0.88094951923076925" green="0.60976967773107704" blue="0.4493022502025853" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <button width="1" alignment="left" title="EMPEZAR" id="3sb-Mj-R9f">
+                            <color key="titleColor" red="0.88094951923076925" green="0.79213196531486929" blue="0.70358395739437474" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.26914600061493738" green="0.53133012820512815" blue="0.43699105861422199" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="empezar" destination="AgC-eL-Hgc" id="dKk-Wx-VXy"/>
+                                <segue destination="WrA-g6-SfQ" kind="push" id="hCX-pm-Pcb"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.58217478805381695" green="0.81498227658877964" blue="0.92437900641025639" alpha="0.75689655172413794" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--TAMAÑO-->
+        <scene sceneID="dlp-p5-d1b">
+            <objects>
+                <controller identifier="TAMAÑO" backgroundImage="americana-1512910_1280" contentMode="right" id="WrA-g6-SfQ" customClass="pantalla1" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="ELIGE TU TAMAÑO PREFERIDO" numberOfLines="0" minimumScaleFactor="0.90000000000000002" id="pTs-jm-39v">
+                            <color key="textColor" red="0.14865742865257597" green="0.25319685127232966" blue="0.3388020833615385" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <picker height="100" alignment="left" id="PFq-t0-1ir">
+                            <connections>
+                                <action selector="tamañocambio:" destination="WrA-g6-SfQ" id="6NM-Xy-zGV"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" alpha="0.69999999999999996" title="SIGUIENTE" id="BrS-bu-dqe">
+                            <color key="titleColor" red="0.43010919232189809" green="0.68561698720769226" blue="0.45071227105400857" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.42876602564102562" green="0.09898490251807722" blue="0.092022349508497997" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="next1" destination="WrA-g6-SfQ" id="kDp-Te-10o"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.92437900641025639" green="0.84822483360086831" blue="0.78546629269728452" alpha="0.75689655172413794" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="tamaño" destination="PFq-t0-1ir" id="vaW-QN-yFc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="414" y="360"/>
+        </scene>
+        <!--MASA-->
+        <scene sceneID="mhw-bH-pMT">
+            <objects>
+                <controller identifier="MASA" backgroundImage="yellow-1513285_1280" contentMode="bottomRight" id="lPd-F8-iMB" customClass="pantalla2" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="QUE MASA TE GUSTA ?" numberOfLines="0" id="5Bh-zK-Iwz">
+                            <color key="textColor" red="0.52259615384615388" green="0.13084552480767325" blue="0.12954593219333127" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <picker height="100" alignment="left" id="KKP-hQ-2qq">
+                            <connections>
+                                <action selector="masacambio:" destination="lPd-F8-iMB" id="x30-Ob-X4a"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" alpha="0.55000000000000004" title="SIGUIENTE" id="y7T-6r-qdQ">
+                            <color key="titleColor" red="0.94161762672828453" green="1" blue="0.11076202027978876" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.45527496044890375" green="0.50739182692307694" blue="0.35465325021916733" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="next2" destination="lPd-F8-iMB" id="GT0-Hz-58G"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.92437900641025639" green="0.55487034390183498" blue="0.62776428557280872" alpha="0.75689655172413794" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="masa" destination="KKP-hQ-2qq" id="BrC-il-ClX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="608" y="360"/>
+        </scene>
+        <!--QUESO-->
+        <scene sceneID="4GX-HF-nuG">
+            <objects>
+                <controller identifier="QUESO" backgroundImage="mesh-1430107_1280" contentMode="topRight" id="1eM-Tm-s4n" customClass="pantalla3" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="QUESO FAVORITO?" id="7dh-PI-Mnm">
+                            <color key="textColor" red="0.8837688348385353" green="0.95074118592564105" blue="0.63334878761162317" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <picker height="100" alignment="left" id="h9E-In-u5h">
+                            <connections>
+                                <action selector="quesocambio:" destination="1eM-Tm-s4n" id="MdU-Dz-cSa"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" alpha="0.69999999999999996" title="SIGUIENTE" id="xFR-Qf-pSS">
+                            <color key="titleColor" red="0.25987580128205123" green="0.10168577331538002" blue="0.10669519167719083" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.26914600059999999" green="0.53133012820000003" blue="0.43699105859999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="next3" destination="1eM-Tm-s4n" id="HxC-ze-Wo9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.46168399213271311" green="0.92437900641025639" blue="0.4459196519786231" alpha="0.65501077586206902" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="queso" destination="h9E-In-u5h" id="hGN-Oz-j28"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="814" y="346"/>
+        </scene>
+        <!--INGREDIENTES-->
+        <scene sceneID="IZn-FG-Fdc">
+            <objects>
+                <controller identifier="INGREDIENTES" backgroundImage="yellow-1513285_1280" contentMode="left" id="O97-vW-KZI" customClass="pantalla4" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="ELIGE TUS INGREDIENTES" numberOfLines="0" id="aCU-0w-iMY">
+                            <color key="textColor" red="0.65096153846153848" green="0.16434224036782713" blue="0.1217743857650251" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" alignment="left" id="dyr-XA-BsV">
+                            <items>
+                                <label alignment="left" text="HOLA" id="XMO-IM-HN0"/>
+                                <switch width="1" alignment="left" value="YES" title="JAMON" id="JF7-WG-BNZ">
+                                    <color key="tintColor" red="0.65096153846153848" green="0.26396163079767349" blue="0.18660503444702048" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="jamonElegido:" destination="O97-vW-KZI" id="LcL-2D-dtf"/>
+                                    </connections>
+                                </switch>
+                            </items>
+                        </group>
+                        <switch width="1" alignment="left" value="YES" title="JITOMATE" id="ryW-2i-4KE">
+                            <color key="tintColor" red="0.65096153846153848" green="0.26396163079767349" blue="0.18660503444702048" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="jitomateElegido:" destination="O97-vW-KZI" id="Tit-9C-J6a"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" value="YES" title="PEPERONI" id="VA0-pf-57b">
+                            <color key="tintColor" red="0.65096153846153848" green="0.26396163079767349" blue="0.18660503444702048" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="peperoniElegido:" destination="O97-vW-KZI" id="I1I-1t-S8R"/>
+                            </connections>
+                        </switch>
+                        <switch width="134" alignment="left" value="YES" title="PIÑA" minimumScaleFactor="0.40000000000000002" id="4BA-yz-gRe">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <color key="tintColor" red="0.65096153846153848" green="0.26396163079767349" blue="0.18660503444702048" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="piñaElegida:" destination="O97-vW-KZI" id="Jmw-LP-BFg"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" value="YES" title="MAS QUESO" id="Jb6-R7-5XR">
+                            <color key="tintColor" red="0.65096153846153848" green="0.26396163079767349" blue="0.18660503444702048" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="masquesoElegido:" destination="O97-vW-KZI" id="IS8-ry-MyM"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" alpha="0.80000000000000004" title="SIGUIENTE" id="tQq-qE-O1q">
+                            <color key="titleColor" red="0.65096153850000005" green="0.26396163080000001" blue="0.18660503440000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.43169455178968158" green="0.5399128859630582" blue="0.66173878205128212" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="next4" destination="O97-vW-KZI" id="FUG-1c-0ic"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.34381676250217014" green="0.53605167443585633" blue="0.5992588141025641" alpha="0.65501077586206902" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1016" y="346"/>
+        </scene>
+        <!--RESULTADOS-->
+        <scene sceneID="2wh-vw-TiN">
+            <objects>
+                <controller identifier="RESULTADOS" backgroundImage="mesh-1430107_1280" contentMode="TopLeft" id="eFy-0m-yNx" customClass="pantalla5" customModule="Pizzamaker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="RESULTADOS" id="yTV-EJ-KP8"/>
+                        <group width="1" alignment="left" id="bP3-bD-1fE">
+                            <items>
+                                <label alignment="left" text="TAMAÑO" id="6zH-Ac-FIx"/>
+                                <separator alignment="left" id="sTr-MW-CCv"/>
+                                <label alignment="left" text="Label" numberOfLines="0" id="5BU-0b-A3J"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="01E-1V-P0C">
+                            <items>
+                                <label alignment="left" text="MASA" id="Nzs-jY-3P0"/>
+                                <separator alignment="left" id="iq5-E9-Gpg"/>
+                                <label alignment="left" text="Label" numberOfLines="0" id="GEX-jM-ca4"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="SLD-oH-dJq">
+                            <items>
+                                <label alignment="left" text="QUESO" id="M7e-Vt-dJW"/>
+                                <separator alignment="left" id="1tu-1I-Zkn"/>
+                                <label alignment="left" text="Label" numberOfLines="0" id="aYe-ZU-n8C"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="iv9-Xj-QAK">
+                            <items>
+                                <label alignment="left" text="INGREDIENTES" id="XkU-kP-D7k"/>
+                                <separator alignment="left" id="CPi-iB-wGQ"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Label" numberOfLines="0" id="JrD-DZ-1YV"/>
+                        <button width="1" alignment="left" title="EDITAR" id="npT-OR-8OR">
+                            <color key="titleColor" red="0.19205958040000001" green="0.32606235420000002" blue="0.43567708329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="editar" destination="eFy-0m-yNx" id="TRM-QT-MNC"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="CONFIRMAR" id="Q43-cP-ip9">
+                            <color key="titleColor" red="0.13412115080000001" green="0.22769943610000001" blue="0.30424679490000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="confirmad" destination="eFy-0m-yNx" id="MAS-Lf-6nO"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.73425480769230766" green="0.49684606396417602" blue="0.30289497634839119" alpha="0.73305495689655176" colorSpace="calibratedRGB"/>
+                    <variation key="device=watch38mm" backgroundImage="mesh-1430107_1280"/>
+                    <connections>
+                        <outlet property="labelingredientes" destination="JrD-DZ-1YV" id="kHP-dn-CZN"/>
+                        <outlet property="labelmasa" destination="GEX-jM-ca4" id="lh6-M7-tis"/>
+                        <outlet property="labelqueso" destination="aYe-ZU-n8C" id="lCA-oh-iIY"/>
+                        <outlet property="labeltamaño" destination="5BU-0b-A3J" id="tjQ-vd-NLl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1220" y="347"/>
+        </scene>
+        <!--PAGO-->
+        <scene sceneID="jwZ-Bx-Tlr">
+            <objects>
+                <controller identifier="PAGO" backgroundImage="mesh-1430107_1280" contentMode="top" id="Pzh-HK-2lr">
+                    <items>
+                        <label alignment="left" text="SU PIZZA ESTA LISTA" textAlignment="center" numberOfLines="0" id="V44-hS-8gc">
+                            <color key="textColor" red="0.14859695804308079" green="0.17658253205128205" blue="0.13828320779699063" alpha="0.75689655172413794" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="EL PAGO ESPERA" id="Fgr-BU-8wR"/>
+                        <paymentButton width="1" alignment="left" verticalAlignment="center" alpha="0.80000000000000004" id="zSt-2w-uC7"/>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.96598741916348785" blue="0.80886891224301216" alpha="0.75689655172413794" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1437" y="325"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Pizzamaker_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
